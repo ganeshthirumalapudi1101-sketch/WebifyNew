@@ -25,7 +25,7 @@ import {
 import "./styles.css";
 
 const API =
-  import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+  import.meta.env.VITE_API_URL || "https://webifybackend.onrender.com:5000/api";
 
 const HERO_VIDEO = import.meta.env.VITE_HERO_VIDEO_URL || "";
 
